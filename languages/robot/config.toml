@@ -1,0 +1,4 @@
+name = "Robot"
+grammar = "robot"
+path_suffixes = ["robot"]
+line_comments = ["#"]
