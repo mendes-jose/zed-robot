@@ -1,10 +1,10 @@
-id = "robot"
+id = "robot-framework"
 name = "Robot Framework"
 description = "🤖 Robot Framework support."
 authors = ["José Mendes <mendesfilho@pm.me>"]
 version = "0.0.1"
 schema_version = 1
 
-[grammars.robot]
-repository = "https://github.com/Hubro/tree-sitter-robot" # <-- update me
+[grammars.robot-framework]
+repository = "https://github.com/Hubro/tree-sitter-robot"
 rev = "e34def7cb0d8a66a59ec5057fe17bb4e6b17b56a"
