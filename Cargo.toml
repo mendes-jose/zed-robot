@@ -1,0 +1,12 @@
+[package]
+name = "zed-robot"
+version = "1.0.0"
+edition = "2024"
+authors = ["José Mendes <mendesfilho@pm.me>", "Sylvain Fargier <fargier.sylvain@gmail.com>"]
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.7.0"
