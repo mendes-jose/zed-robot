@@ -1,10 +1,14 @@
 id = "robot-framework"
 name = "Robot Framework"
 description = "🤖 Robot Framework support."
-authors = ["José Mendes <mendesfilho@pm.me>"]
+authors = ["José Mendes <mendesfilho@pm.me>", "Sylvain Fargier <fargier.sylvain@gmail.com>"]
 version = "0.0.1"
 schema_version = 1
 
 [grammars.robot]
 repository = "https://github.com/Hubro/tree-sitter-robot"
 rev = "e34def7cb0d8a66a59ec5057fe17bb4e6b17b56a"
+
+[language_servers.robot]
+name = "RobotFramework LSP"
+languages = ["Robot"]
