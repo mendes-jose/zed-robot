@@ -9,7 +9,6 @@
   (setting_statement)      ; multi-line setting blocks
   (keyword_definition)     ; Keyword definitions with a body
   (test_case_definition)   ; Test case definitions with a body
-  (task_definition)        ; Task definitions (if present in grammar)
   (for_statement)          ; FOR ... END blocks
   (while_statement)        ; WHILE ... END blocks
   (if_statement)           ; IF / ELSE IF / ELSE / END
