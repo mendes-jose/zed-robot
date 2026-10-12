@@ -1,4 +1,4 @@
 name = "Robot"
 grammar = "robot"
-path_suffixes = ["robot"]
+path_suffixes = ["robot", "resource"]
 line_comments = ["#"]
